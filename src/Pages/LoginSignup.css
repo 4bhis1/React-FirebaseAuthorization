@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(142, 142, 175);
+}
+
+.main {
+  width: 600px;
+  /* background-color: white; */
+  height: 600px;
+  height: max-content;
+  position: absolute;
+  top: 22%;
+  left: 30%;
+  /* box-shadow: 8px 8px 20px rgb(97, 121, 167); */
+}
+
+.mainButton {
+  display: flex;
+}
+
+.loginButton {
+  width: 300px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #e9ecef;
+  padding: 20px;
+  margin: 0px 1px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.active {
+  background-color: white;
+}
+
+.mainPart {
+  background-color: white;
+  border-top: 2px solid rgb(179, 177, 177);
+  margin: 0 1px;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupText,
+.loginText {
+  color: rgb(54, 54, 172);
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.signupText:hover,
+.loginText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.formText {
+  margin: 10px 0;
+  font-size: 20px;
+  color: blue;
+}
+
+.formButton {
+  margin: 0;
+  margin-top: 20px;
+  width: min-content;
+  cursor: pointer;
+  background-color: white;
+  /* padding: 10px 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 13%;
+  border: 2px solid blueviolet;
+}
+
+.formButton:hover {
+  background-color: blueviolet;
+  color: white;
+}

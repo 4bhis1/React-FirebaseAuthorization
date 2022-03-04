@@ -1,0 +1,117 @@
+.mainContainer {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  /* background-color: #444; */
+  width: 100%;
+  min-height: 80vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: transparent;
+}
+
+.mainbody {
+  background: url("../Images/334698.jpg") fixed center;
+}
+
+.mainHeading {
+  /* height: 100px; */
+  width: min-content;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  /* font-size: 80px; */
+  /* opacity: 0.8; */
+}
+
+.mainHeadingPro {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  /* background-color: rgba(53, 49, 49, 0.8); */
+}
+
+.container {
+  margin: 20px 20px 0px 20px;
+}
+
+.text {
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.list {
+  position: absolute;
+  background-color: rgb(224, 224, 236);
+  color: rgb(3, 3, 3);
+  width: 422px;
+  margin-left: 11px;
+  margin-top: 1px;
+  /* height: 70px; */
+  max-height: 200px;
+  overflow-y: scroll;
+  display: block;
+}
+
+.listItem {
+  text-align: left;
+  padding: 5px;
+  padding-left: 10px;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  /* margin: 20px; */
+}
+
+.listItem:hover {
+  background-color: rgb(29, 29, 31);
+  color: white;
+}
+
+.next {
+  cursor: pointer;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.next:hover {
+  color: rgb(78, 73, 73);
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+}
+
+#search {
+  width: 400px;
+  /* margin-bottom: 0px; */
+}
+
+.warning {
+  display: none;
+  top: 40%;
+  left: 35%;
+  position: absolute;
+  height: 25%;
+  width: 35%;
+  background: tomato;
+  color: white;
+  font-size: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 40px;
+}
+
+.close:hover {
+  color: blue;
+  cursor: pointer;
+}
